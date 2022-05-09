@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    margin: 20;
+    padding: 15px 15px;
+    border: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+header h1 {
+color: rgb(110, 58, 58);
+font-family:'Arial Narrow Bold';
+font-size: 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: flex;
+    color: rgb(110, 58, 58);
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    flex-direction: row;
+    float: right;
+    align-items:left;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    background-color: rgb(150, 125, 125);
+
+}
+
+.hero-banner {
+    background-image: url(../assets/heroimg.jpeg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.hero-banner img {
+    display: flex;
+    padding-right: 20%;
+    padding-top: 18%;
+}
+h2 {
+    align-items: center;
+    padding-top: 25%;
+    padding-right: 20%;
+    color: rgb(230, 237, 230);
+    font-size: 50px;
+ }
+
+.page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-section {
+    margin: 25px 0;
+    padding:10px 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.page-section > h3 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid rgb(15, 13, 13);
+    font-size: 20;
+    line-height: 5.5;
+}
+
+.page-section p {
+    margin-bottom: 20px;
+}
+
+.page-section > div {
+    flex: 0 0 77%;
+}
+
+.project {
+    border:5px solid black;
+    min-height: 150ox;
+    max-height: 150px;
+    display: flex;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    background-size: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+
+.homework-1 {
+    background-image: url(../assets/horiseon.jpeg);
+}
+
+address {
+    margin: 25px 0;
+    padding-right: 2%;
+    display: flex;
+    justify-content:space-between;
+}
+
+address a {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 30px;
+    color:rgb(110, 58, 58);
+}
+
+
+
