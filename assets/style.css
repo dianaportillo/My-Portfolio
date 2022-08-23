@@ -127,10 +127,16 @@ h2 {
     flex-basis: 100%;
 }
 
-
-.homework-1 {
-    background-image: url(../assets/horiseon.jpeg);
+div a  {
+    color: black;
+    padding: 10%
 }
+
+/* #My-Work {
+    background-image: url(../assets/Screen\ Shot\ 2022-08-22\ at\ 11.46.06\ PM.png);
+    height: 5vh;
+    width: 10vh;
+} */
 
 address {
     margin: 25px 0;
@@ -144,6 +150,11 @@ address a {
     font-style: normal;
     font-size: 30px;
     color:rgb(110, 58, 58);
+}
+
+.contact address a:hover {
+    background-size: 100% 100%;
+    background-color: rgb(150, 125, 125);
 }
 
 
